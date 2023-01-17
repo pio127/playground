@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# It provides an easy way for parsing positional parameters.
+# It provides an easy way for parsing short positional parameters.
 # However it doesn't work for long positional parameters form.
 
 while getopts abcf: parameter; do

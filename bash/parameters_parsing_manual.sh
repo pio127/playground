@@ -44,8 +44,7 @@ while [ $# -gt 0 ]; do
                 exit 2
             fi
             echo "File \"$FILENAME\" will be used for processing."
-            shift
-            shift
+            shift 2
             ;;
         * )
             echo "ERROR: Unknown parameter \"$1\" used."
